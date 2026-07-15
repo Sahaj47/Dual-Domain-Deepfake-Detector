@@ -72,10 +72,10 @@ if uploaded_file is not None:
     
     with col1:
         st.subheader("1. Spatial Domain")
-        st.image(spatial_img_resized, caption="Uploaded Image", width='stretch')
+        st.image(spatial_img_resized, caption="Uploaded Image", use_container_width=True)
     with col2:
         st.subheader("2. Frequency Spectrum")
-        st.image(original_fft_img, caption="FFT Extracted", width='stretch')
+        st.image(original_fft_img, caption="FFT Extracted", use_container_width=True)
     with col3:
         st.subheader("3. Explainability (Grad-CAM)")
-        st.image(superimposed_fft, caption="Network Activation Zones", width='stretch')
+        st.image(superimposed_fft, caption="Network Activation Zones", use_container_width=True)
