@@ -1,0 +1,9 @@
+# Datasets (Do NOT upload to GitHub)
+data/
+data_fft/
+
+# Python Cache & Environments
+__pycache__/
+*.pyc
+venv/
+.env/
