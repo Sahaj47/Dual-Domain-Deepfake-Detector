@@ -61,8 +61,8 @@ if __name__ == "__main__":
     print("Starting Dual-Domain Preprocessing Pipeline...")
     
     # Define your base paths based on the Week 2 structure
-    base_input_dir = r"C:\Users\sahaj\Desktop\cdac_deepfake_project\data" 
-    base_output_dir = r"C:\Users\sahaj\Desktop\cdac_deepfake_project\data_fft"
+    base_input_dir = r"../data/"
+    base_output_dir = r"../data_fft/"
     
     splits = ["train", "test"]
     classes = ["REAL", "FAKE"]

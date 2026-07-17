@@ -169,5 +169,5 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("Usage: python 06_explainability.py path/to/image.jpg")
     else:
-        model_weights_path = "C:/Users/sahaj/Desktop/cdac_deepfake_project/src/models/deepfake_detector_weights.pth"
+        model_weights_path = "../deepfake_detector_weights.pth"
         visualize_gradcam(sys.argv[1], model_weights_path)

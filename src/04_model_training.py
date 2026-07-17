@@ -38,8 +38,8 @@ def train_model():
 
     # Point these to where your FFT images are saved
 
-    train_dir = os.path.join("C:/Users/sahaj/Desktop/cdac_deepfake_project", "data_fft", "train")
-    test_dir = os.path.join("C:/Users/sahaj/Desktop/cdac_deepfake_project", "data_fft", "test")
+    train_dir = os.path.join("../", "data_fft", "train")
+    test_dir = os.path.join("../", "data_fft", "test")
 
     print("Loading datasets into memory...")
     train_dataset = datasets.ImageFolder(root=train_dir, transform=transform)

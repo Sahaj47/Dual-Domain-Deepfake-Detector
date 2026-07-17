@@ -119,7 +119,7 @@ if __name__ == '__main__':
         print("Usage: python 05_inference.py <path_to_image.jpg>")
     else:
         # Update this to point to where your best_model.pth is located
-        model_weights_path = "C:/Users/sahaj/Desktop/cdac_deepfake_project/src/models/deepfake_detector_weights.pth"
+        model_weights_path = "../deepfake_detector_weights.pth"
         if not os.path.exists(model_weights_path):
             print(f"[-] Error: Could not find weights file at {model_weights_path}")
         else:
